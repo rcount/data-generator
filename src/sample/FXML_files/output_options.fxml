@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="mainVBox" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.OutputOptions">
+   <children>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
+         <children>
+            <VBox fx:id="labelVBox" alignment="TOP_RIGHT" spacing="25.0">
+               <children>
+                  <Label fx:id="nameLabel" text="Label" />
+                  <Label fx:id="dataTypeLabel" text="Label" />
+                  <Label fx:id="attributeLabel" text="Label" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
+            <VBox fx:id="inputVBox" spacing="10.0">
+               <children>
+                  <TextField fx:id="nameTextField" />
+                  <ComboBox fx:id="dataComboBox" prefWidth="150.0" />
+                  <ComboBox fx:id="attributeComboBox" prefWidth="150.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox fx:id="buttonHBox" alignment="CENTER_RIGHT" spacing="10.0">
+         <children>
+            <Button fx:id="cancelButton" mnemonicParsing="false" text="Button" />
+            <Region fx:id="buttonRegion" HBox.hgrow="ALWAYS" />
+            <Button fx:id="saveAddButton" mnemonicParsing="false" text="Button" />
+            <Button fx:id="saveCloseButton" mnemonicParsing="false" text="Button" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

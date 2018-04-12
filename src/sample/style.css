@@ -1,0 +1,20 @@
+.generateButton{
+    -fx-background-color: linear-gradient( #33CC33, #339900);
+    -fx-background-radius: 5,5,4;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #FFFFFF;
+    -fx-text-alignment: center;
+}
+
+.generateButton:hover{
+    -fx-background-color: #339900;
+}
+
+.generateButton:pressed{
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+    -fx-background-color: #33CC33;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0.0 , 0, 1);
+    -fx-background-position: center;
+}

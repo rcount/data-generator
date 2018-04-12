@@ -1,0 +1,4 @@
+This is the about File.
+
+This file will explain the how to use the program and the licence.
+It will also explain why we made it...maybe.

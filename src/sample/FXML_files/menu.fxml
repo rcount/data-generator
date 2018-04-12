@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="menuVBox" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.MenuController">
+   <children>
+      <MenuBar fx:id="menuBar" prefHeight="25.0">
+        <menus>
+          <Menu fx:id="fileMenu" mnemonicParsing="false" text="menu1" />
+          <Menu fx:id="editMenu" mnemonicParsing="false" text="menu2" />
+          <Menu fx:id="helpMenu" mnemonicParsing="false" text="menu3" />
+        </menus>
+      </MenuBar>
+   </children>
+</VBox>
