@@ -41,7 +41,7 @@ public class InputController{
 
     //TODO: Comment File
 
-    //MARK: - Private attributes for the InputController class -
+    //MARK: - FXML attributes for the InputController class -
 
     @FXML
     BorderPane inputBorderPane;
@@ -103,6 +103,13 @@ public class InputController{
     @FXML
     Region rightFreeRegion;
 
+    //MARK: - Private attributes for the class -
+
+    private static final double MAX_COLUMN_PERCENT = 0.30;
+
+
+    private static final double COUNT_COLUMN_WIDTH_PERCENT = .10;
+
     private int numberOfRows = 0;
 
     private String separator = "";
@@ -110,11 +117,6 @@ public class InputController{
     private String quote = "";
 
     private static final int MAX_ROWS = 1_000_000;
-
-    private static final double MAX_COLUMN_PERCENT = 0.30;
-
-
-    private static final double COUNT_COLUMN_WIDTH_PERCENT = .10;
 
     private ResourceBundle resources = ResourceBundle.getBundle(ResourceNames.RESOURCE_BUNDLE);
 

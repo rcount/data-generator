@@ -16,6 +16,8 @@ import java.util.logging.Logger;
 
 public class OutputOptions {
 
+    //TODO: Comment file
+
     @FXML
     Label nameLabel;
 
