@@ -1,8 +1,6 @@
 # data-generator
 
----
 ## Data Generator
----
 
 This program is used to generate pseudo random data and store it in a file for later processing.
 
@@ -14,9 +12,7 @@ The available file types currently are:
 
 [Gson](https://github.com/google/gson) is used for the JSON formatting.
 
----
 ## Notes
----
 
 If you want to add a type to the generatable types you must provide the POJO, that class
 must extend the Tablable class, which through inheritance will have to implement the
@@ -28,9 +24,7 @@ After that you must add a public static final int for that type to the Generatab
 class and update the methods to return a Generatable from there. If you do not do these
 steps then the application will not work.
 
----
 ## Licence 
----
 
 Licenced under the [MIT License](https://opensource.org/licenses/MIT) except for the Gson, which is under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
