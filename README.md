@@ -1,6 +1,4 @@
-# data-generator
-
-## Data Generator
+# Data Generator
 
 This program is used to generate pseudo random data and store it in a file for later processing.
 
